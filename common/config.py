@@ -10,7 +10,7 @@ TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 API_KEY = os.getenv("LLM_API_KEY")
 BASE_URL = os.getenv("LLM_BASE_URL")
 
-MODEL = os.getenv("LLM_MODEL", "gpt-5.4-mini")
+MODEL = os.getenv("LLM_MODEL", "gpt-5.4-nano")
 TEMPERATURE = os.getenv("LLM_TEMPERATURE", 2)
 MAX_TOKENS = os.getenv("LLM_MAX_TOKENS", 2086)
 
